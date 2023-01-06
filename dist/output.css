@@ -556,6 +556,10 @@ video {
   height: 100vh;
 }
 
+.h-12{
+  height: 3rem;
+}
+
 .h-\[40px\]{
   height: 40px;
 }
@@ -568,12 +572,16 @@ video {
   width: auto;
 }
 
-.w-full{
-  width: 100%;
-}
-
 .w-9\/12{
   width: 75%;
+}
+
+.w-40{
+  width: 10rem;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .w-\[40px\]{
@@ -604,16 +612,16 @@ video {
   overflow: hidden;
 }
 
-.\!overflow-hidden{
-  overflow: hidden !important;
-}
-
 .rounded-3xl{
   border-radius: 1.5rem;
 }
 
 .border-2{
   border-width: 2px;
+}
+
+.border{
+  border-width: 1px;
 }
 
 .border-black{
@@ -643,6 +651,28 @@ video {
 .bg-\[\#393E46\]{
   --tw-bg-opacity: 1;
   background-color: rgb(57 62 70 / var(--tw-bg-opacity));
+}
+
+.bg-\[\"\+name_bg\+\"\]{
+  background-color: "+name bg+";
+}
+
+.\!bg-red-500{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity)) !important;
+}
+
+.bg-\[\"\+old_color\+\"\]{
+  background-color: "+old color+";
+}
+
+.bg-\[\"\+new_color\+\"\]{
+  background-color: "+new color+";
+}
+
+.bg-red-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .p-2{
@@ -675,45 +705,22 @@ video {
   line-height: 1;
 }
 
-.text-\[5vw\]{
-  font-size: 5vw;
-}
-
-.text-\[10vw\]{
-  font-size: 10vw;
-}
-
-.text-\[6vw\]{
-  font-size: 6vw;
-}
-
-.text-\[3vw\]{
-  font-size: 3vw;
-}
-
-.text-\[3vh\]{
-  font-size: 3vh;
-}
-
-.text-\[6vh\]{
-  font-size: 6vh;
-}
-
-.text-\[4vh\]{
-  font-size: 4vh;
-}
-
-.text-\[8vh\]{
-  font-size: 8vh;
-}
-
 .font-bold{
   font-weight: 700;
+}
+
+.font-black{
+  font-weight: 900;
 }
 
 .text-\[\#00ADB5\]{
   --tw-text-opacity: 1;
   color: rgb(0 173 181 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-\[\#222831\]{
@@ -731,9 +738,9 @@ video {
   color: rgb(238 238 238 / var(--tw-text-opacity));
 }
 
-.text-white{
+.text-black{
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .transition-all{
