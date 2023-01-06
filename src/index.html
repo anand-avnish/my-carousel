@@ -11,24 +11,32 @@
 </head>
 <body class="overflow-hidden">
 
-    <div class="carousel h-screen w-screen overflow-hidden font-montserrat">    <!-- Carousel Start -->
+    <div class="carousel h-screen w-screen overflow-hidden font-sans font-['Raleway']">    <!-- Carousel Start -->
 
-        <div class="slides absolute top-0 left-0 flex w-auto h-screen transition-all ease-in-out duration-1000">    <!-- Slides Start -->
+        <div class="slides overflow-hidden absolute top-0 left-0 flex w-auto h-screen transition-all ease-in-out duration-1000">    <!-- Slides Start -->
             <div class="slide flex flex-col justify-center items-center h-screen w-screen bg-[#222831] text-[#00ADB5] p-2">
-                <div class="text-5xl">Welcome,</div>
-                <div class="text-8xl pt-3 name">Avnish Anand</div>
+                <div class="text-5xl text-center">Welcome,</div>
+                <div class="text-8xl pt-3 name text-center">Avnish Anand</div>
+                <input type="text" id="name-input" name="name" placeholder="Your Name" class="w-9/12 p-2 bg-white/50 border-2 border-black rounded-3xl text-center text-white mt-2">
+                <button class="change-name transition ease-in duration-300 bg-[#EEEEEE] text-[#222831] hover:bg-[#00ADB5] hover:text-[#222831] font-bold mt-2 p-2 rounded-3xl">Change Name</button>
             </div>
             <div class="slide flex flex-col justify-center items-center h-screen w-screen bg-[#00ADB5] text-[#393E46] p-2">
-                <div class="text-5xl">Your favourite movie is,</div>
-                <div class="text-8xl pt-3 movie">Your Name</div>
+                <div class="text-5xl text-center">Your favourite movie is,</div>
+                <div class="text-8xl pt-3 movie text-center">Your Name</div>
+                <input type="text" id="movie-input" name="movie" placeholder="Favourite Movie" class="w-9/12 p-2 bg-white/50 border-2 border-black rounded-3xl text-center mt-2">
+                <button class="change-movie transition ease-in duration-300 bg-[#EEEEEE] text-[#222831] hover:bg-[#222831] hover:text-[#00ADB5] font-bold mt-2 p-2 rounded-3xl">Change Movie</button>
             </div>
             <div class="slide flex flex-col justify-center items-center h-screen w-screen bg-[#393E46] text-[#EEEEEE] p-2">
-                <div class="text-5xl">Your favourite series is,</div>
-                <div class="text-8xl pt-3 series">Demon Slayer</div>
+                <div class="text-5xl text-center">Your favourite series is,</div>
+                <div class="text-8xl pt-3 series text-center">Demon Slayer</div>
+                <input type="text" id="series-input" name="series" placeholder="Favourite Series" class="w-9/12 p-2 bg-white/50 border-2 border-black rounded-3xl text-center mt-2">
+                <button class="change-series transition ease-in duration-300 bg-[#00ADB5] text-[#222831] hover:bg-[#EEEEEE] hover:text-[#393E46] font-bold mt-2 p-2 rounded-3xl">Change Series</button>
             </div>
             <div class="slide flex flex-col justify-center items-center h-screen w-screen bg-[#EEEEEE] text-[#222831] p-2">
-                <div class="text-5xl">Your favourite pass-time is,</div>
-                <div class="text-8xl pt-3 pass_time">Reading Manhwa</div>
+                <div class="text-5xl text-center">Your favourite pass-time is,</div>
+                <div class="text-8xl pt-3 pass_time text-center">Reading Manhwa</div>
+                <input type="text" id="pass_time-input" name="pass_time" placeholder="Favourite Pass-Time" class="w-9/12 p-2 bg-white/50 border-2 border-black rounded-3xl text-center mt-2">
+                <button class="change-pass_time transition ease-in duration-300 bg-[#393E46] text-[#EEEEEE] hover:bg-[#222831] hover:text-[#EEEEEE] font-bold mt-2 p-2 rounded-3xl">Change Pass-Time</button>
             </div>
         </div>  <!-- Slides Start -->
 

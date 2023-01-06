@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Montserrat&family=Poppins:wght@100;200;300;400;500&family=Courgette&display=swap');
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -419,7 +421,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -466,7 +468,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -513,168 +515,234 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
+.absolute{
   position: absolute;
 }
 
-.top-0 {
+.top-0{
   top: 0px;
 }
 
-.left-0 {
+.left-0{
   left: 0px;
 }
 
-.top-2\/4 {
+.top-2\/4{
   top: 50%;
 }
 
-.z-50 {
+.z-50{
   z-index: 50;
 }
 
-.mx-4 {
+.mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.flex {
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.flex{
   display: flex;
 }
 
-.h-screen {
+.h-screen{
   height: 100vh;
 }
 
-.h-\[40px\] {
+.h-\[40px\]{
   height: 40px;
 }
 
-.w-screen {
+.w-screen{
   width: 100vw;
 }
 
-.w-auto {
+.w-auto{
   width: auto;
 }
 
-.w-full {
+.w-full{
   width: 100%;
 }
 
-.w-\[40px\] {
+.w-9\/12{
+  width: 75%;
+}
+
+.w-\[40px\]{
   width: 40px;
 }
 
-.cursor-pointer {
+.cursor-pointer{
   cursor: pointer;
 }
 
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.justify-between {
+.justify-between{
   justify-content: space-between;
 }
 
-.overflow-hidden {
+.overflow-hidden{
   overflow: hidden;
 }
 
-.rounded-3xl {
+.\!overflow-hidden{
+  overflow: hidden !important;
+}
+
+.rounded-3xl{
   border-radius: 1.5rem;
 }
 
-.bg-\[\#222831\] {
+.border-2{
+  border-width: 2px;
+}
+
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-\[\#222831\]{
   --tw-bg-opacity: 1;
   background-color: rgb(34 40 49 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#00ADB5\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 173 181 / var(--tw-bg-opacity));
+.bg-white\/50{
+  background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-\[\#393E46\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(57 62 70 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#EEEEEE\] {
+.bg-\[\#EEEEEE\]{
   --tw-bg-opacity: 1;
   background-color: rgb(238 238 238 / var(--tw-bg-opacity));
 }
 
-.bg-white\/50 {
-  background-color: rgb(255 255 255 / 0.5);
+.bg-\[\#00ADB5\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 173 181 / var(--tw-bg-opacity));
 }
 
-.p-2 {
+.bg-\[\#393E46\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(57 62 70 / var(--tw-bg-opacity));
+}
+
+.p-2{
   padding: 0.5rem;
 }
 
-.pt-3 {
+.pt-3{
   padding-top: 0.75rem;
 }
 
-.font-raleway {
-  font-family: Raleway, sans-serif;
+.text-center{
+  text-align: center;
 }
 
-.font-courgette {
-  font-family: Courgette, cursive;
+.font-sans{
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.font-montserrat {
-  font-family: Montserrat, sans-serif;
+.font-\[\'Raleway\'\]{
+  font-family: 'Raleway';
 }
 
-.text-5xl {
+.text-5xl{
   font-size: 3rem;
   line-height: 1;
 }
 
-.text-8xl {
+.text-8xl{
   font-size: 6rem;
   line-height: 1;
 }
 
-.text-\[\#00ADB5\] {
+.text-\[5vw\]{
+  font-size: 5vw;
+}
+
+.text-\[10vw\]{
+  font-size: 10vw;
+}
+
+.text-\[6vw\]{
+  font-size: 6vw;
+}
+
+.text-\[3vw\]{
+  font-size: 3vw;
+}
+
+.text-\[3vh\]{
+  font-size: 3vh;
+}
+
+.text-\[6vh\]{
+  font-size: 6vh;
+}
+
+.text-\[4vh\]{
+  font-size: 4vh;
+}
+
+.text-\[8vh\]{
+  font-size: 8vh;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.text-\[\#00ADB5\]{
   --tw-text-opacity: 1;
   color: rgb(0 173 181 / var(--tw-text-opacity));
 }
 
-.text-\[\#393E46\] {
-  --tw-text-opacity: 1;
-  color: rgb(57 62 70 / var(--tw-text-opacity));
-}
-
-.text-\[\#EEEEEE\] {
-  --tw-text-opacity: 1;
-  color: rgb(238 238 238 / var(--tw-text-opacity));
-}
-
-.text-\[\#222831\] {
+.text-\[\#222831\]{
   --tw-text-opacity: 1;
   color: rgb(34 40 49 / var(--tw-text-opacity));
 }
 
-.transition-all {
+.text-\[\#393E46\]{
+  --tw-text-opacity: 1;
+  color: rgb(57 62 70 / var(--tw-text-opacity));
+}
+
+.text-\[\#EEEEEE\]{
+  --tw-text-opacity: 1;
+  color: rgb(238 238 238 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.transition-all{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
-.transition {
+.transition{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -682,23 +750,58 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-1000 {
+.duration-1000{
   transition-duration: 1000ms;
 }
 
-.duration-300 {
+.duration-300{
   transition-duration: 300ms;
 }
 
-.ease-in-out {
+.ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ease-in {
+.ease-in{
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
-.hover\:bg-white:hover {
+.hover\:bg-\[\#00ADB5\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 173 181 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#222831\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 40 49 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#EEEEEE\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-\[\#222831\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(34 40 49 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#00ADB5\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 173 181 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#393E46\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(57 62 70 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#EEEEEE\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(238 238 238 / var(--tw-text-opacity));
 }
