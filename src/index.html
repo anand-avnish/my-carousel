@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>My Carousel</title>
+</head>
+<body class="overflow-hidden">
+
+    <div class="carousel h-screen w-screen overflow-hidden font-montserrat">    <!-- Carousel Start -->
+
+        <div class="slides absolute top-0 left-0 flex w-auto h-screen transition-all ease-in-out duration-1000">    <!-- Slides Start -->
+            <div class="slide flex flex-col justify-center items-center h-screen w-screen bg-[#222831] text-[#00ADB5] p-2">
+                <div class="text-5xl">Welcome,</div>
+                <div class="text-8xl pt-3 name">Avnish Anand</div>
+            </div>
+            <div class="slide flex flex-col justify-center items-center h-screen w-screen bg-[#00ADB5] text-[#393E46] p-2">
+                <div class="text-5xl">Your favourite movie is,</div>
+                <div class="text-8xl pt-3 movie">Your Name</div>
+            </div>
+            <div class="slide flex flex-col justify-center items-center h-screen w-screen bg-[#393E46] text-[#EEEEEE] p-2">
+                <div class="text-5xl">Your favourite series is,</div>
+                <div class="text-8xl pt-3 series">Demon Slayer</div>
+            </div>
+            <div class="slide flex flex-col justify-center items-center h-screen w-screen bg-[#EEEEEE] text-[#222831] p-2">
+                <div class="text-5xl">Your favourite pass-time is,</div>
+                <div class="text-8xl pt-3 pass_time">Reading Manhwa</div>
+            </div>
+        </div>  <!-- Slides Start -->
+
+        <div class="controls flex absolute top-2/4 left-0 justify-between w-full z-50"> <!-- Controls Start -->
+            <div class="previous transition ease-in duration-300 mx-4 h-[40px] w-[40px] flex justify-center items-center rounded-3xl bg-white/50 hover:bg-white cursor-pointer"><span class="material-symbols-outlined">arrow_back_ios</span></div>
+            <div class="next transition ease-in duration-300 mx-4 h-[40px] w-[40px] flex justify-center items-center rounded-3xl bg-white/50 hover:bg-white cursor-pointer"><span class="material-symbols-outlined">arrow_forward_ios</span></div>
+        </div>  <!-- Controls Ends -->
+
+    </div>  <!-- Carousel Start -->
+
+</body>
+</html>
